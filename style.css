@@ -154,7 +154,11 @@ a{
     margin: 1rem;
     background: #9947FF;
     border-radius: 7rem;
+    display: flex;
+    justify-content: center;
 }
+
+
 .showcase_item:nth-child(2), .showcase_item:nth-child(3){
     transform: translateY(6rem);
 }
