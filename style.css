@@ -154,9 +154,11 @@ a{
 /* Sponsor */
 
 .sponsor {
+    padding: 2rem;
     width: 100%;
     height: fit-content;
     display: flex;
+    background-color: #181B3F;
     flex-direction: column;
     align-items: center;
 }
@@ -164,17 +166,21 @@ a{
 .sponsor p {
     font-size: 3rem;
     font-weight: 500;
+    color: #FFFFFF;
 }
 
 .sponsor-container {
     width: 100%;
     height: fit-content;
-    padding: 5rem;
+    padding: 2rem;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .sponsor-item {
+    background-color: rgba(255, 255, 255, 0.80) ;
+    margin: 1rem;
     width: 20rem;
     height: 10rem;
     display: flex;
@@ -183,7 +189,7 @@ a{
 }
 
 .sponsor-item img {
-    width: 50%;
+    width: 40%;
 }
 
 /* Advantage */
