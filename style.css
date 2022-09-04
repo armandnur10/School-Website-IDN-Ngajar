@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 :root{
     --primary-color-text: #06042F;
     --secondary-color-text: #D77699;
@@ -28,6 +29,10 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
 }
 .nav_logo{
     height: 100%;
@@ -104,8 +109,9 @@ a{
 
 .showcase{
     width: 100%;
-    min-height: 100%;
+    height: fit-content;
     display: flex;
+    padding: 8rem 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -253,7 +259,8 @@ a{
 
 .about{
     width: 100%;
-    min-height: 100%;
+    height: fit-content;
+    padding: 8rem 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -297,7 +304,8 @@ a{
 }
 .location{
     width: 100%;
-    height: 70%;
+    height: fit-content;
+    padding: 8rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -323,7 +331,7 @@ a{
 .contact{
     width: 100%;
     display: flex;
-    min-height: 100%;
+    height: fit-content;
     flex-direction: column;
     align-items: center;
 }
@@ -376,11 +384,56 @@ form{
 footer{
     width: 100%;
     height: fit-content;
-    display: flex
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    /* border: 1px solid black; */
 }
-
-footer .footer-left {
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 20rem;
+    border: 1px solid black;
+    font-weight: 500;
     
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 20rem;
+    /* border: 1px solid black; */
+}
+.footer-title{
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    margin: 0 0 1rem 0;
+}
+.footer-title img{
+    width: 3rem;
+}
+.footer-left > p{
+    width: 60%;
+    opacity: 0.8;
+}
+.footer-left-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-left-bottom h1{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.footer-address{
+    width: 40%;
+}
+.footer-phone{
+    width: 40%;
 }
 @media (max-width: 960px) {
    :root{
