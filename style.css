@@ -21,6 +21,7 @@ a{
     text-decoration: none;
     color: white;
 }
+/* Navigation */
 .nav{
     width: 100%;
     height: 100px;
@@ -34,7 +35,12 @@ a{
     display: flex;
     font-weight: 700;
     align-items: center;
+    color: var(--primary-color-text);
 }
+.nav_logo:hover{
+    opacity: 0.8;
+}
+
 .nav_logo img{
     height: 50%;
     width: auto;
@@ -89,7 +95,7 @@ a{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
-.btn_nav:hover, .btn_showcase:hover{
+.btn:hover{
     filter: brightness(70%);
     transition: 0.5s;
 }
@@ -144,6 +150,43 @@ a{
 .showcase_item:nth-child(2), .showcase_item:nth-child(3){
     transform: translateY(6rem);
 }
+
+/* Sponsor */
+
+.sponsor {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsor p {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.sponsor-container {
+    width: 100%;
+    height: fit-content;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor-item {
+    width: 20rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-item img {
+    width: 50%;
+}
+
+/* Advantage */
 .advantage{
     width: 100%;
     height: fit-content;
@@ -302,7 +345,7 @@ form{
     border: 1px solid rgba(0, 0, 0, 0.4);
     padding: 1rem;
 }
-button{
+.button{
     width: 100%;
     margin: 1rem;
     border-radius: 3rem;
@@ -313,14 +356,26 @@ button{
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
     font-size: 1rem;
     padding: 1rem;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
-button:hover{
+.button:hover{
     transform: translateY(10px);
     transition: 0.5s;
     filter: brightness(70%);
+}
+
+footer{
+    width: 100%;
+    height: fit-content;
+    display: flex
+}
+
+footer .footer-left {
+    
 }
 @media (max-width: 960px) {
    :root{
