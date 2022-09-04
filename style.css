@@ -295,7 +295,12 @@ a{
     flex-wrap: wrap;
     margin: 1rem 0;
 }
+
 .about_text ul li{
+    justify-content: space-between;
+}
+
+.about_text ul li a{
     width: 15rem;
     height: 2rem;
     color: black;
