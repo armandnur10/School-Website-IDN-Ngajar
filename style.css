@@ -398,13 +398,11 @@ footer{
     flex-direction: column;
     width: 35%;
     height: 20rem;
-    border: 1px solid black;
     font-weight: 500;
-    
+
 }
 .footer-right{
     display: flex;
-    flex-direction: column;
     width: 50%;
     height: 20rem;
     /* border: 1px solid black; */
@@ -418,9 +416,10 @@ footer{
 .footer-title img{
     width: 3rem;
 }
-.footer-left > p{
+.footer-left > p {
     width: 60%;
     opacity: 0.8;
+    margin: 1rem 0;
 }
 .footer-left-bottom{
     display: flex;
@@ -437,6 +436,33 @@ footer{
 .footer-phone{
     width: 40%;
 }
+
+.footer-social h1{
+    font-size: 1.6rem;
+    margin: 0 0 1rem 0;
+}
+
+.footer-social li{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.footer-social img{
+    width: 2rem ;
+    margin: 0 1rem 0 0;
+}
+
+.footer-copyright{
+    align-self: flex-end;
+    position: relative;
+    right: 0;
+}
+
+.footer-copyright h3{
+    font-size: 1.2rem;
+}
+
 @media (max-width: 960px) {
    :root{
     font-size: 14px;
