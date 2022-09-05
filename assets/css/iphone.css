@@ -1,5 +1,30 @@
-@media (max-width: 420px) {
+@media (max-width: 500px) {
     :root{
         font-size: 8px;
+    }
+    .location{
+        flex-direction: column;
+    }
+    .contact h1{
+        padding: 5rem;
+        text-align: center;
+    }
+    .contact form .input{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-left{
+        width: 50%;
+    }
+    footer .footer-right{
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    .footer-right .footer-copyright{
+        align-self: center;
     }
 }
