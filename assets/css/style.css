@@ -447,6 +447,9 @@ footer{
     font-weight: 500;
 
 }
+.footer-left h1{
+    font-size: 1rem;
+}
 .footer-right{
     display: flex;
     width: 50%;
@@ -484,7 +487,7 @@ footer{
 }
 
 .footer-social h1{
-    font-size: 1.6rem;
+    font-size:  1rem;
     margin: 0 0 1rem 0;
 }
 
@@ -492,6 +495,9 @@ footer{
     display: flex;
     align-items: center;
     margin: 1rem 0;
+}
+.footer-left p{
+    opacity: 0.5;
 }
 
 .footer-social img{
@@ -507,6 +513,7 @@ footer{
 .footer-copyright h3{
     font-size: 1.2rem;
     width: fit-content;
+    opacity: 0.8;
 }
 
 @media (max-width: 960px) {
