@@ -444,7 +444,7 @@ footer{
 .footer-right{
     display: flex;
     width: 50%;
-    height: 20rem;
+    height: 20rem;justify-content: space-between;
     /* border: 1px solid black; */
 }
 .footer-title{
@@ -495,12 +495,12 @@ footer{
 
 .footer-copyright{
     align-self: flex-end;
-    position: relative;
-    right: 0;
+    
 }
 
 .footer-copyright h3{
     font-size: 1.2rem;
+    width: fit-content;
 }
 
 @media (max-width: 960px) {
