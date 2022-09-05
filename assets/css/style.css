@@ -308,8 +308,10 @@ a{
     border-radius: 0.5rem;
     border-top-left-radius: 12rem;
     border-top-right-radius: 12rem;
-    background-image: url(/assets/img/background/bg-about.png);
+    background-image: url(/assets/img/background/bg-about1.png);
     background-size: cover;
+    display: flex;
+    background-position: center;
     border: 1px solid black;
     background-repeat: no-repeat;
 }
