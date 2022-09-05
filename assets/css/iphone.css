@@ -1,0 +1,5 @@
+@media (max-width: 420px) {
+    :root{
+        font-size: 8px;
+    }
+}
