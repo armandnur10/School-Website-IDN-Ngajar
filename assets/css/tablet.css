@@ -1,9 +1,19 @@
 @media (max-width: 820px) {
-        :root{
-            font-size: 10px;
-        }
-    
-        .about{
-            flex-direction: column;
-        }
+    :root {
+        font-size: 10px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about_text {
+        margin: 4rem 0;
+        text-align: center;
+    }
+
+    .about_text p{
+        margin: 1rem 0;
+    }
+
 }
